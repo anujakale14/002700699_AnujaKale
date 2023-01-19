@@ -5,6 +5,7 @@ In the context of a university website, HTML and CSS can be used together to cre
 CSS can then be used to control the visual design of the website, such as the colors, fonts, and spacing. It can be used to control the layout of elements on the page, such as position, size and visibility of elements, and can also be used to create hover effects and animations. By using CSS, the University website can have a consistent design and branding throughout the website.
 In summary, HTML and CSS work together to create a well-structured and visually appealing university website that can display important information and resources to students, faculty, and staff.
 Tags Used: Fevicon,Table, Form, Images, Hyperlink, Button
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 (B)- Music Website
 HTML5 includes new elements and attributes for embedding video and audio content on a website without the need for additional plug-ins like Flash.
