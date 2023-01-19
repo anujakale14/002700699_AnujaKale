@@ -6,18 +6,7 @@ CSS can then be used to control the visual design of the website, such as the co
 In summary, HTML and CSS work together to create a well-structured and visually appealing university website that can display important information and resources to students, faculty, and staff.
 
 Tags Used: 
-Fevicon
-Table
-Form
-Images
-Hyperlink
-Button
-
-
-
-
-
-
+Fevicon,Table, Form, Images, Hyperlink, Button
 
 
 (B)- Music Website
@@ -27,11 +16,6 @@ The <video> element is used to embed video content, and it supports a variety of
 Both elements can include several attributes to control the playback and presentation of the media, such as autoplay, controls, loop and preload. The <source> element can be used in conjunction with the <video> and <audio> elements to specify multiple sources for the media, allowing the browser to choose the best format to play.
 In summary, HTML5 allows to easily include video and audio into web pages without the need of additional plug-ins, that makes it more convenient and accessible for users.
 
-Tags Used:
-
-Audio
-Video 
-Header 
-Footer
+Tags Used: Audio, Video ,Header ,Footer
 
 
