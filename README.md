@@ -11,8 +11,7 @@ Form
 Images
 Hyperlink
 Button
-
-
+__________
 (B)
 HTML5 includes new elements and attributes for embedding video and audio content on a website without the need for additional plug-ins like Flash.
 The <video> element is used to embed video content, and it supports a variety of video formats such as MP4, WebM, and Ogg. The <audio> element is used to embed audio content, and it also supports a variety of audio formats such as MP3, WAV, and Ogg.
