@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="images/fevicon.png">
+</head>
+<body>
+  <div class="hero">
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="images/video.mp4" type="video/mp4">
+    </video>
+
+  <div class="content">
+
+    <div class="left-col">
+     <h1>THE<br>REAL<br>SOUND</h1>
+    </div>
+
+    <div class="right-col">
+
+    <p>Click here to listen</p>
+    <img src="images/play.png" id="icon">
+  </div>
+</div>
+
+</div>
+ <audio controls>
+  <source  src="images/town.mp3" type="audio/mpeg">
+ </audio>
+
+ <section class="footer">
+  <h4>About Us</h4>
+  <p>Music Website.</p>
+  <p>Made By Anuja Kale - 002700699</p>
+</section>
+
+  <script>
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("mySong");
+
+    icon.onclick = function(){
+      if(mySong.paused){
+        mySong.play();
+        icon.src = "images/pause.png";
+      }else
+      mySong.pause();
+        icon.src = "images/play.png";
+    }
+  </script>
+  
+</body>
+</html>

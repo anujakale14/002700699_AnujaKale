@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/fevicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Courses Offered</h1>
+
+    </section>
+     
+        <!-------------course--------------->
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p> We provide a variety of courses to ensure that you take advantage of everything.</p>
+    
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Having knowledge or skills that are superior to those of a novice but not yet those of an expert.</p>
+                </div>
+    
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>A degree course is a program of study that lasts at least three years full-time, or its equivalent in part-time, at an accredited higher education institution.</p>
+                </div>
+    
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Student who is pursuing advanced studies after successfully completing an undergraduate degree-level course at a college or university.</p>
+                </div>
+                
+            </div>
+    
+         </section>
+
+         <!-------------facilities--------------->
+       
+     <section class="facilities">
+        <h1>Facilities Provided By Us</h1>
+        <p>There are various facilities provided by the University</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>Library</h3>
+                <p>Through scholarly resources, innovative learning environments, state-of-the-art technology, and world-class service, the Libraries promote excellence in learning, teaching, and research while embracing intellectual curiosity and creativity.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Sports</h3>
+                <p>Sports activities helps to growth scholar participation, foster social and emotional gaining knowledge of, and motivate college students to take dangers.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Cafeteria</h3>
+                <p>They offer a nice surroundings for social interaction that promotes collaborative learning, with the introduced advantage of being able to clutch a bite to eat.</p>
+            </div>
+
+        </div>
+     </section>
+
+
+
+        
+
+
+        <!-------------footer--------------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Through our pioneering educational and research infrastructure, we enable our diverse academic community to positively change lives and society.</p>
+            <p>Made By Anuja Kale - 002700699</p>
+        </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks .style.right = "0"; 
+        }
+
+        function hideMenu(){
+            navLinks .style.right = "-200px"; 
+        }
+    </script>
+
+</body>
+</html>
